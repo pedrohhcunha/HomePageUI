@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --black: #000;
+    --white: #fff;
+    --blue: #3564ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    background: url(img/pexels-joyston-judah-933054.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background: rgba(255, 255, 255, 0.178);
+    width: 90vw;
+    height: 90vh;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 0 5%;
+    color: var(--white);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+header .area-left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+header .area-left h1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+header .area-left ul{
+    display: flex;
+    list-style: none;
+}
+header .area-left ul li{
+    margin-left: 15px;
+}
+button{
+    font-size: 16px;
+    color: var(--white);
+    background: var(--blue);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+button:hover{
+    filter: brightness(.8);
+}
+.content{
+    padding: 0 5%;
+    width: 100%;
+    color: #fff
+}
+.content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.content p{
+    margin-bottom: 15px;
+    width: 55%;
+}
